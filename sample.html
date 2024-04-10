@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Image with Overlay</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(2009.jpg); /* Path to your background image */
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            height: 100vh; /* Full height of the viewport */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .overlay {
+            background-color: white; /* White color with 70% opacity */
+            width: 300px; /* Width of the white box */
+            height: 200px; /* Height of the white box */
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+    <h1>Content Here</h1>
+    <p>This is some sample content on top of the background image.</p>
+</div>
+
+</body>
+</html>
